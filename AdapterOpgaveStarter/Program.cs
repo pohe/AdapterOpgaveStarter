@@ -5,5 +5,5 @@ Console.WriteLine("Hello, Adapter pattern!");
 
 
 OldPrinter oldPrinter = new OldPrinter();
-//NewPrinter newPrinter = new PrinterAdapter(oldPrinter);
+//INewPrinter newPrinter = new PrinterAdapter(oldPrinter);
 //newPrinter.SendToPrinter("New document");
